@@ -8,6 +8,7 @@ import BaseLayer.BaseClass;
 import PageLayer.LoginPage;
 import PageLayer.RegisterPage;
 import PageLayer.SignInPage;
+import PageLayer.createAccountPage;
 
 public class RegisterPageTest extends BaseClass {
 
@@ -42,6 +43,14 @@ public class RegisterPageTest extends BaseClass {
 		   login.loginInPageFuctionality();  
 		   
 		   
+	   }
+	   
+	   @Test
+	   public void validatecreateAccPageFuctionality()
+	   {
+		   createAccountPage acc = new createAccountPage();
+		   acc.createAccPageFuctionality();
+		  
 	   }
 	   
 	   @AfterTest
