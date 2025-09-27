@@ -5,6 +5,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import BaseLayer.BaseClass;
+import PageLayer.LoginPage;
 import PageLayer.RegisterPage;
 import PageLayer.SignInPage;
 
@@ -30,6 +31,15 @@ public class RegisterPageTest extends BaseClass {
 	   {
 		   SignInPage sign = new SignInPage();
 		   sign.signInFuctionality();   
+		   
+		   
+	   }
+	   
+	   @Test
+	   public void validateLoginInPageFuctionality()
+	   {
+		   LoginPage login = new LoginPage();
+		   login.loginInPageFuctionality();  
 		   
 		   
 	   }
